@@ -14,7 +14,7 @@ namespace A_person
             Student student_one =new Student();
             student_one.Personinformation("Harry","Potter",18,"Male");
             student_one.StudentInformation("G911980","Hogwarts");
-            Console.WriteLine("\nName:" + student_one.Name + "\nLast name:" + student_one.Last_name + "\nAge:" + student_one.Age + "\nGender:" + student_one.Gender);
+            Console.WriteLine("\nName:" + student_one.Name + "\nLast name:" + student_one.Last_name + "\nAge:" + student_one.Age + "\nGender:" + student_one.Gender + "\nEnrollment:" + student_one.Enrollment + "\nSchool:"+ student_one.School_name);
             student_one.Speak();
         }
         }
